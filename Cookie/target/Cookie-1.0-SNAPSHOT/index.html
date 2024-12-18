@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="description" content="Découverte de Jakarta EE, une plateforme Java pour le développement d'applications d'entreprise." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie -Java</title>
+        <meta charset="UTF-8">        
+        <link rel="shortcut icon" href="./assets/android.svg" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="cookie-banner">
+            <div id="cookie">  
+                <aside>
+                    <h3>Ce site utilise des cookies. Acceptez-vous ?</h3>
+                    <button type="button" id="close" aria-label="fermer le cookie" title="fermer le cookie" onclick="closeCookie()"></button>
+                </aside>                      
+                <img src="./assets/icon-basecamp.svg" alt="Icône indiquant l'utilisation des cookies" />
+                <div>                            
+                    <button onclick="acceptCookie()" aria-label="Accepter les cookies">Accepter</button>
+                    <button onclick="rejectCookie()" aria-label="Refuser les cookies">Refuser</button>
+                </div>
+            </div>
+        </div>
+        <div id="container">            
+            <nav>
+                <header>
+                    <img src="./assets/sidebar.svg" alt="sidebar icon">
+                    <h1> Menu de Navigation</h1>
+                </header>
+                <div>                    
+                    <a href="#introduction">Introduction</a>
+                    <a href="#caracteristiques">Caractéristiques</a>
+                    <a href="#avantages">Avantages</a>
+                    <a href="#nouveautes">Nouveautés</a>
+                    <a href="#avancees">Avancées technologiques</a>
+                    <a href="#temoignages">Témoignages utilisateurs</a>
+                    <a href="#formation">Formation et documentation</a>
+                    <a href="#futur">Futur de Jakarta EE</a>
+                    <a href="#ecosysteme">Écosystème</a>
+                    <a href="#cas-utilisation">Cas d'utilisation</a>
+                    <a href="#performances">Performances</a>
+                    <a href="#integration-cloud">Intégration Cloud</a>
+                    <a href="#innovations">Innovations futures</a>
+                    <a href="#ressources">Ressources</a>
+                </div>
+            </nav>
+
+            <main>
+                <header>
+                   <h1>Découverte de Jakarta EE</h1>
+                   <p>La plateforme Java idéale pour le développement d'applications d'entreprise modernes.</p>
+               </header>
+               <div>                
+                   <section id="introduction">
+                       <h2>Qu'est-ce que Jakarta EE ?</h2>
+                       <p>Jakarta EE, anciennement connu sous le nom de Java EE, est une plateforme open source dédiée au développement d'applications d'entreprise. Elle fournit un ensemble complet d'API et de services pour créer des applications robustes, sécurisées et évolutives.</p>
+                   </section>
+                   <section id="caracteristiques">
+                       <h2>Caractéristiques principales</h2>                                        
+                       <ul>
+                           <li>Support des conteneurs légers et des microservices.</li>
+                           <li>API robustes pour le développement web et la gestion de données.</li>
+                           <li>Interopérabilité grâce aux normes ouvertes.</li>
+                           <li>Écosystème actif et communauté open source.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="avantages">
+                       <h2>Pourquoi choisir Jakarta EE ?</h2>
+                       <p>Jakarta EE offre une base solide pour développer des applications modernes tout en permettant une grande flexibilité et en garantissant une compatibilité à long terme. Grâce à sa standardisation, les entreprises peuvent réduire les coûts et améliorer l'efficacité du développement logiciel.</p>
+                   </section>
+   
+                   <section id="nouveautes">
+                       <h2>Nouveautés</h2>
+                       <p>Jakarta EE continue d'innover pour répondre aux besoins des développeurs modernes. Voici quelques-unes des nouveautés récentes :</p>
+                       <ul>
+                           <li><strong>Support amélioré :</strong> Les dernières versions offrent une compatibilité accrue avec les JDK modernes.</li>
+                           <li><strong>Outillage :</strong> Nouveaux plugins pour les IDE populaires comme Eclipse et IntelliJ.</li>
+                           <li><strong>Extensions cloud :</strong> Des intégrations natives pour faciliter le déploiement sur Kubernetes.</li>
+                       </ul>
+                   </section>
+                   
+                   <section id="avancees">
+                       <h2>Avancées technologiques</h2>
+                       <p>Jakarta EE continue de repousser les limites de la technologie avec des avancées notables :</p>
+                       <ul>
+                           <li><strong>Interopérabilité :</strong> Améliorations dans l'intégration avec d'autres plateformes comme Spring et Quarkus.</li>
+                           <li><strong>API RESTful :</strong> Fonctionnalités enrichies pour des architectures modernes.</li>
+                           <li><strong>Sécurité :</strong> Renforcement des protocoles pour garantir une protection optimale des données.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="temoignages">
+                       <h2>Témoignages utilisateurs</h2>
+                       <p>Les développeurs et entreprises partagent leurs expériences avec Jakarta EE :</p>
+                       <blockquote>
+                           "Jakarta EE a transformé notre processus de développement, nous permettant de livrer plus rapidement tout en garantissant une qualité supérieure." - Entreprise XYZ
+                       </blockquote>
+                       <blockquote>
+                           "La communauté active de Jakarta EE a été essentielle pour surmonter les défis techniques lors de la modernisation de nos applications." - Développeur Java
+                       </blockquote>
+                   </section>
+   
+                   <section id="formation">
+                       <h2>Formation et documentation</h2>
+                       <p>Les ressources éducatives de Jakarta EE facilitent l'apprentissage pour les débutants comme pour les experts :</p>
+                       <ul>
+                           <li><a href="https://jakarta.ee/documentation/" target="_blank" rel="noopener">Documentation officielle</a> : Guide complet pour débuter ou approfondir vos connaissances.</li>
+                           <li><a href="https://www.youtube.com/c/jakartaee" target="_blank" rel="noopener">Chaîne YouTube</a> : Tutoriels vidéo et webinaires sur Jakarta EE.</li>
+                           <li><a href="https://jakarta.ee/courses/" target="_blank" rel="noopener">Cours en ligne</a> : Formation gratuite et payante pour maîtriser Jakarta EE.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="futur">
+                       <h2>Futur de Jakarta EE</h2>
+                       <p>Jakarta EE est prêt pour l'avenir avec des initiatives passionnantes :</p>
+                       <ul>
+                           <li><strong>Adoption généralisée :</strong> Encourager une plus grande adoption dans les petites et grandes entreprises.</li>
+                           <li><strong>Standards ouverts :</strong> Continuer à promouvoir des standards ouverts pour garantir l'interopérabilité et la flexibilité.</li>
+                           <li><strong>Support IA :</strong> Exploration des API pour faciliter l'intégration de l'Intelligence Artificielle et du Machine Learning.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="ecosysteme">
+                       <h2>Écosystème Jakarta EE</h2>
+                       <p>Jakarta EE fait partie d'un écosystème plus large qui inclut des outils, des frameworks et des communautés collaboratives. Voici quelques éléments clés :</p>
+                       <ul>
+                           <li><strong>MicroProfile :</strong> Une initiative visant à optimiser Jakarta EE pour les microservices.</li>
+                           <li><strong>Spring Framework :</strong> Une intégration facilitée avec Jakarta EE pour des applications Java modernes.</li>
+                           <li><strong>Communauté open source :</strong> Un réseau actif de développeurs contribuant à l'innovation constante.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="cas-utilisation">
+                       <h2>Cas d'utilisation de Jakarta EE</h2>
+                       <p>Jakarta EE est utilisé dans divers secteurs pour des besoins spécifiques :</p>
+                       <ul>
+                           <li><strong>Finance :</strong> Développement d'applications bancaires sécurisées et fiables.</li>
+                           <li><strong>Santé :</strong> Création de systèmes d'information pour la gestion des patients.</li>
+                           <li><strong>Commerce électronique :</strong> Gestion des transactions, des stocks et de l'expérience client.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="performances">
+                       <h2>Performances et optimisation</h2>
+                       <p>Avec Jakarta EE, les performances ne sont jamais un compromis. Les entreprises bénéficient des améliorations continues :</p>
+                       <ul>
+                           <li>Réduction de la latence des requêtes grâce à des optimisations serveur.</li>
+                           <li>Gestion efficace des transactions distribuées pour des systèmes complexes.</li>
+                           <li>Prise en charge des derniers JDK pour profiter des fonctionnalités avancées de Java.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="integration-cloud">
+                       <h2>Intégration avec le Cloud</h2>
+                       <p>Jakarta EE est parfaitement adapté pour un déploiement cloud natif :</p>
+                       <ul>
+                           <li>Support des architectures conteneurisées avec Docker et Kubernetes.</li>
+                           <li>Interopérabilité avec les services AWS, Azure et Google Cloud.</li>
+                           <li>Outils pour le monitoring et la gestion des microservices.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="innovations">
+                       <h2>Innovations futures</h2>
+                       <p>Jakarta EE continue de pousser les limites du développement d'applications :</p>
+                       <ul>
+                           <li>Introduction de nouvelles API pour le Machine Learning.</li>
+                           <li>Améliorations des standards de sécurité pour répondre aux cybermenaces modernes.</li>
+                           <li>Collaboration accrue avec des projets open source comme Quarkus et Helidon.</li>
+                       </ul>
+                   </section>
+   
+                   <section id="ressources">
+                       <h2>Ressources utiles</h2>
+                       <p>Pour en savoir plus sur Jakarta EE, voici quelques liens utiles :</p>
+                       <ul>
+                           <li><a href="https://jakarta.ee" target="_blank" rel="noopener" >Site officiel de Jakarta EE</a></li>
+                           <li><a href="https://eclipse.org" target="_blank" rel="noopener" >Fondation Eclipse</a></li>
+                           <li><a href="https://github.com/eclipse-ee4j" target="_blank" rel="noopener" >Dépôt GitHub</a></li>
+                       </ul>
+                   </section>
+                   <footer>
+                       <p>&copy; 2024 Présentation de Jakarta EE. Tous droits réservés.</p>
+                    </footer>
+                </div>                
+                <button id="scroll-to-top" aria-label="Revenir en haut" onclick="scrollToTop()"><img src="./assets/back.svg" alt="to up"></button>
+            </main>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+

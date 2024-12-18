@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_catpurr_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_catpurr_dark" stroke="#3C3C3C">
+            <g>
+                <path d="M25.4273128,11.0219069 C25.7967331,11.9423868 26,12.9474557 26,14 C26,18.418278 22.418278,22 18,22 C13.581722,22 10,18.418278 10,14 C10,13.20459 10.1160828,12.4362925 10.3322314,11.7111248 C9.90551936,10.8263847 9.7239944,9.50392062 9.62310001,8.68220171 C9.51147404,7.7730812 9.70114682,6.78843293 10.1921183,5.7282569 C11.1948104,6.61933575 12.0162593,7.39198196 12.6564652,8.04619554 C14.0730304,6.77398479 15.9461283,6 18,6 C19.5888745,6 21.0695636,6.46319617 22.3144007,7.26192164 C22.9389825,6.57503052 23.7360682,5.72151878 24.7056577,4.70138642 C25.0915538,7.53611723 25.3321055,9.6429574 25.4273128,11.0219069 Z" id="Combined-Shape" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M25.0473369,16.7129836 C27.5265852,18.2464531 29.1881021,19.8443764 30.0318878,21.5067535 C31.1740053,23.7568866 32.4950683,27.8632675 33.9950766,33.8258962" id="Path-2" stroke-width="2"></path>
+                <path d="M17.113144,36 C17.113144,37.1045695 16.2177135,38 15.113144,38 C13.9808786,38 13.0358707,37.1357129 12.9350404,36.007946 C11.8478171,33.0821739 11.227176,29.8276126 11.0731171,26.2442621 C10.955399,23.5061852 11.1743573,21.7381175 11.9612802,19.0743824" id="Rectangle-6" stroke-width="2"></path>
+                <path d="M23.0458273,26.6775073 C23.0458273,27.4769325 22.4443553,30.5893045 21.2414115,36.0146233 C21.1036128,37.1478848 20.1416085,38 19,38 C17.8954305,38 17,37.1045695 17,36 C17,33.7966924 17,32.1442117 17,31.0425579" id="Rectangle-6" stroke-width="2" stroke-linecap="round"></path>
+                <rect id="Rectangle-5" stroke-width="2" x="25" y="33" width="11" height="5" rx="2.5"></rect>
+                <path d="M25.5,37 L21.5,37" id="Line-3" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M5.41297575,15.5 L16.4129758,14.5" id="Path-3" stroke-linecap="round" transform="translate(10.956488, 14.689758) scale(-1, 1) translate(-10.956488, -14.689758) "></path>
+                <path d="M18.5,15.5 L28.5,12.5" id="Path-3" stroke-linecap="round"></path>
+                <path d="M18.5,15.8795167 L30.5,14.8795167" id="Path-3" stroke-linecap="round" transform="translate(24.500000, 15.689758) scale(1, -1) translate(-24.500000, -15.689758) "></path>
+                <path d="M7.67423402,17.8795167 L16.674234,14.8795167" id="Path-3" stroke-linecap="round" transform="translate(12.087117, 16.689758) scale(-1, -1) translate(-12.087117, -16.689758) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
